@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-label="Capability focus — Cloud and DevOps, Data Engineering, AI and Agentic, Consulting">
+  <defs>
+    <clipPath id="fcard"><rect x="4" y="4" width="1272" height="312" rx="20"/></clipPath>
+    <radialGradient id="fglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f5" stop-opacity="0.20"/>
+      <stop offset="70%" stop-color="#3b82f5" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .sans { font-family:'Space Grotesk','Segoe UI',system-ui,-apple-system,sans-serif; }
+      .mono { font-family:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace; }
+    </style>
+  </defs>
+
+  <rect x="4" y="4" width="1272" height="312" rx="20" fill="#0d0f12" stroke="#1f2330" stroke-width="1.5"/>
+  <g clip-path="url(#fcard)">
+    <g stroke="#1b1e28" stroke-width="1" opacity="0.55">
+      <path d="M40 4V316 M80 4V316 M120 4V316 M160 4V316 M200 4V316 M240 4V316 M280 4V316 M320 4V316 M360 4V316 M400 4V316 M440 4V316 M480 4V316 M520 4V316 M560 4V316 M600 4V316 M640 4V316 M680 4V316 M720 4V316 M760 4V316 M800 4V316 M840 4V316 M880 4V316 M920 4V316 M960 4V316 M1000 4V316 M1040 4V316 M1080 4V316 M1120 4V316 M1160 4V316 M1200 4V316 M1240 4V316"/>
+      <path d="M4 40H1276 M4 80H1276 M4 120H1276 M4 160H1276 M4 200H1276 M4 240H1276 M4 280H1276"/>
+    </g>
+    <ellipse cx="1080" cy="60" rx="320" ry="200" fill="url(#fglow)"/>
+
+    <!-- header -->
+    <text x="56" y="62" class="mono" font-size="14" letter-spacing="5" fill="#808994">//&#160;CAPABILITY&#160;FOCUS</text>
+    <circle cx="1206" cy="56" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1196" y="61" text-anchor="end" class="mono" font-size="13" letter-spacing="2" fill="#808994">DELIVERING</text>
+
+    <!-- bars -->
+    <!-- row template: label, track, fill, value -->
+    <g class="mono" font-size="15" fill="#e7ebf1">
+      <text x="56" y="118">Cloud &amp; DevOps</text>
+      <text x="56" y="170">Data Engineering</text>
+      <text x="56" y="222">AI &amp; Agentic</text>
+      <text x="56" y="274">Consulting &amp; RE</text>
+    </g>
+
+    <!-- tracks -->
+    <g>
+      <rect x="360" y="104" width="780" height="14" rx="7" fill="#1b1e28"/>
+      <rect x="360" y="156" width="780" height="14" rx="7" fill="#1b1e28"/>
+      <rect x="360" y="208" width="780" height="14" rx="7" fill="#1b1e28"/>
+      <rect x="360" y="260" width="780" height="14" rx="7" fill="#1b1e28"/>
+    </g>
+    <!-- fills (primary, with subtle glow via opacity layer) -->
+    <g>
+      <rect x="360" y="104" width="725" height="14" rx="7" fill="#3b82f5" fill-opacity="0.25"/>
+      <rect x="360" y="104" width="725" height="14" rx="7" fill="#3b82f5"/>
+      <rect x="360" y="156" width="678" height="14" rx="7" fill="#3b82f5" fill-opacity="0.25"/>
+      <rect x="360" y="156" width="678" height="14" rx="7" fill="#3b82f5"/>
+      <rect x="360" y="208" width="702" height="14" rx="7" fill="#3b82f5" fill-opacity="0.25"/>
+      <rect x="360" y="208" width="702" height="14" rx="7" fill="#3b82f5"/>
+      <rect x="360" y="260" width="640" height="14" rx="7" fill="#3b82f5" fill-opacity="0.25"/>
+      <rect x="360" y="260" width="640" height="14" rx="7" fill="#3b82f5"/>
+    </g>
+    <!-- value labels -->
+    <g class="mono" font-size="13" fill="#808994" text-anchor="end">
+      <text x="1218" y="116">Azure · IaC · K8s</text>
+      <text x="1218" y="168">Databricks · Kafka</text>
+      <text x="1218" y="220">LangGraph · RAG</text>
+      <text x="1218" y="272">BPMN · Discovery</text>
+    </g>
+  </g>
+</svg>

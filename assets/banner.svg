@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none" role="img" aria-label="Nico Braun — Freelance Senior Consultant, Azure · Data · AI">
+  <defs>
+    <clipPath id="card">
+      <rect x="4" y="4" width="1272" height="352" rx="20"/>
+    </clipPath>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f5" stop-opacity="0.34"/>
+      <stop offset="60%" stop-color="#3b82f5" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#3b82f5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <style>
+      .sans { font-family: 'Space Grotesk','Segoe UI',system-ui,-apple-system,sans-serif; }
+      .mono { font-family: 'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace; }
+    </style>
+  </defs>
+
+  <!-- canvas -->
+  <rect x="4" y="4" width="1272" height="352" rx="20" fill="#0d0f12" stroke="#1f2330" stroke-width="1.5"/>
+
+  <g clip-path="url(#card)">
+    <!-- 40px grid lattice -->
+    <g stroke="#1b1e28" stroke-width="1" opacity="0.55">
+      <path d="M40 4V356 M80 4V356 M120 4V356 M160 4V356 M200 4V356 M240 4V356 M280 4V356 M320 4V356 M360 4V356 M400 4V356 M440 4V356 M480 4V356 M520 4V356 M560 4V356 M600 4V356 M640 4V356 M680 4V356 M720 4V356 M760 4V356 M800 4V356 M840 4V356 M880 4V356 M920 4V356 M960 4V356 M1000 4V356 M1040 4V356 M1080 4V356 M1120 4V356 M1160 4V356 M1200 4V356 M1240 4V356"/>
+      <path d="M4 40H1276 M4 80H1276 M4 120H1276 M4 160H1276 M4 200H1276 M4 240H1276 M4 280H1276 M4 320H1276"/>
+    </g>
+
+    <!-- elevation glow behind monogram -->
+    <ellipse cx="150" cy="180" rx="180" ry="160" fill="url(#glow)"/>
+
+    <!-- monogram icon-tile (bg-primary/10, primary stroke) -->
+    <g transform="translate(72,118)">
+      <rect width="124" height="124" rx="20" fill="#3b82f5" fill-opacity="0.10" stroke="#3b82f5" stroke-opacity="0.55" stroke-width="1.5"/>
+      <text x="62" y="86" text-anchor="middle" class="sans" font-size="62" font-weight="700" fill="#3b82f5" filter="url(#soft)" opacity="0.55">NB</text>
+      <text x="62" y="86" text-anchor="middle" class="sans" font-size="62" font-weight="700" fill="#e7ebf1">NB</text>
+    </g>
+
+    <!-- eyebrow -->
+    <text x="248" y="118" class="mono" font-size="15" letter-spacing="5" fill="#808994">FREELANCE&#160;CONSULTANT</text>
+
+    <!-- name -->
+    <text x="246" y="186" class="sans" font-size="68" font-weight="700" letter-spacing="-1.5" fill="#e7ebf1">Nico Braun</text>
+
+    <!-- subtitle -->
+    <text x="248" y="232" class="sans" font-size="26" font-weight="500" fill="#3b82f5">Azure<tspan fill="#3a3f4b">&#160;&#160;·&#160;&#160;</tspan>Data<tspan fill="#3a3f4b">&#160;&#160;·&#160;&#160;</tspan>AI</text>
+
+    <!-- divider -->
+    <path d="M248 268H1208" stroke="#1b1e28" stroke-width="1.5"/>
+
+    <!-- status row -->
+    <circle cx="256" cy="304" r="6" fill="#10b981">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="256" cy="304" r="6" fill="#10b981" opacity="0.5" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.15;0.6;0.15" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="272" y="309" class="mono" font-size="14" letter-spacing="2" fill="#808994">AVAILABLE&#160;FOR&#160;ENGAGEMENTS</text>
+
+    <!-- right-aligned mono stats -->
+    <text x="1208" y="309" text-anchor="end" class="mono" font-size="14" letter-spacing="1" fill="#808994"><tspan fill="#e7ebf1" font-weight="600">6+</tspan> YRS<tspan fill="#3a3f4b">&#160;&#160;/&#160;&#160;</tspan><tspan fill="#e7ebf1" font-weight="600">20</tspan> PROJECTS<tspan fill="#3a3f4b">&#160;&#160;/&#160;&#160;</tspan><tspan fill="#e7ebf1" font-weight="600">13×</tspan> AZURE</text>
+  </g>
+</svg>

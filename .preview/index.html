@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>README preview — GitHub dark</title>
+<base href="/"/>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  :root { color-scheme: dark; }
+  body { background:#010409; margin:0; padding:32px 16px;
+         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+  .wrap { max-width:896px; margin:0 auto; background:#0d1117;
+          border:1px solid #30363d; border-radius:12px; padding:32px 48px;
+          color:#e6edf3; line-height:1.6; }
+  .wrap img { max-width:100%; vertical-align:middle; }
+  .wrap h3 { border-bottom:1px solid #21262d; padding-bottom:.3em; margin-top:28px;
+             font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:#e6edf3; }
+  .wrap hr { border:0; border-top:1px solid #21262d; margin:24px 0; }
+  .wrap code { background:#161b22; padding:.2em .4em; border-radius:6px;
+               font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:85%; }
+  .wrap pre { background:#161b22; border:1px solid #30363d; border-radius:8px;
+              padding:16px; overflow:auto; }
+  .wrap pre code { background:none; padding:0; color:#c9d1d9; }
+  .wrap table { border-collapse:collapse; margin:12px 0; }
+  .wrap th,.wrap td { border:1px solid #30363d; padding:6px 13px; }
+  .wrap th { background:#161b22; }
+  .wrap tr:nth-child(2n) td { background:#0d1117; }
+  .wrap a { color:#2f81f7; text-decoration:none; }
+  .wrap sub { color:#7d8590; }
+</style>
+</head>
+<body>
+  <div class="wrap" id="out">Loading…</div>
+<script>
+  fetch('/README.md', {cache:'no-store'})
+    .then(r => r.text())
+    .then(md => { document.getElementById('out').innerHTML = marked.parse(md); })
+    .catch(e => document.getElementById('out').textContent = 'Error: ' + e);
+</script>
+</body>
+</html>
